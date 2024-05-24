@@ -7,7 +7,7 @@
     }
     
     Cypress.Commands.add('login', (email: string, password: string) => { 
-    cy.visit("http://localhost:5173")
+    cy.visit("https://rocket-x-orpin.vercel.app/")
     cy.get('.login-btn').click()
     cy.get(':nth-child(1) > input').type(email)
     cy.get(':nth-child(2) > input').type(password)
