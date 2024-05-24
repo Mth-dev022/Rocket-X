@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0DFF92;
+  --dark-color: #222222;
+  --light-color: #f0f0f0;
+}
+
+@font-face {
+  font-family: 'thicccboi';
+  src: url('./assets/fonts/Webfont/THICCCBOI-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Webfont/THICCCBOI-Black.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'thicccboi black';
+  src: url('./assets/fonts/Webfont/THICCCBOI-Black.woff2') format('woff2'),
+    url('./assets/fonts/Webfont/THICCCBOI-Bold.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'thicccboi regular';
+  src: url('./assets/fonts/Webfont/THICCCBOI-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Webfont/THICCCBOI-Regular.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'thicccboi Thin';
+  src: url('./assets/fonts/Webfont/THICCCBOI-Thin.woff2') format('woff2'),
+    url('./assets/fonts/Webfont/THICCCBOI-Light.woff2') format('woff');
+}

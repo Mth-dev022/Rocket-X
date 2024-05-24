@@ -1,0 +1,13 @@
+module.exports = {
+  presets: [
+    ['@babel/preset-env', {
+      targets: { esmodules: true },
+      modules: 'commonjs'
+    }],
+    ['@babel/preset-react', { runtime: 'automatic' }],
+    '@babel/preset-typescript',
+  ],
+  plugins: [
+    '@babel/plugin-transform-modules-commonjs'
+  ]
+};
