@@ -3,7 +3,8 @@
 <br>
 
 <p align="center"> 
- <img width="100%" src="client/src/assets/main/form.png">
+ <img width="100%" src="front-end/src/assets/gitHub/main.png">
+ <img width="100%" src="front-end/src/assets/gitHub/questions.png">
 </p>
 
 #  📝 Descrição do projeto
