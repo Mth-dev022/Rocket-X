@@ -1,10 +1,10 @@
-<a href="https://job-ai-yf7m.vercel.app/"> <h1 align="center" > Rocket-X </h1> </a>
+<a href="https://rocket-x-orpin.vercel.app/"> <h1 align="center" > Rocket-X </h1> </a>
 
 <br>
 
 <p align="center"> 
- <img width="100%" src="front-end/src/assets/gitHub/main.png">
- <img width="100%" src="front-end/src/assets/gitHub/questions.png">
+ <img width="100%" src="front-end/src/assets/Images/gitHub/main.png">
+ <img width="100%" src="front-end/src/assets/Images/gitHub/questions.png">
 </p>
 
 #  📝 Descrição do projeto
