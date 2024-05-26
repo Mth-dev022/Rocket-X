@@ -27,4 +27,5 @@ jobs:
           npm install  # Instala as dependências do front-end
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npx cypress run --config-file cypress.config.ts
+
