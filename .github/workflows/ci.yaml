@@ -2,28 +2,29 @@ name: CI Pipeline
 
 on:
   push:
-    branches: 
+    branches:
       - main
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: |
+          cd front-end   # Navega até o diretório do front-end
+          npm install  # Instala as dependências do front-end
 
-    - name: Run Cypress tests
-      run: npx cypress run
+      - name: Run Cypress tests
+        run: npx cypress run
