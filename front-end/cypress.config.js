@@ -4,6 +4,6 @@ export default {
       // implement node event listeners here
     },
     baseUrl: 'https://rocket-x-orpin.vercel.app/',
-    supportFile: false  // Desativar o arquivo de suporte padrão
+    supportFile: false 
   },
 };
