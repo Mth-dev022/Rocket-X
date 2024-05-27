@@ -11,7 +11,7 @@ describe('Database Connection', () => {
 
     await connectDB();
 
-    expect(mongoose.connect).toHaveBeenCalledWith(process.env.MONGODB_URL, {
+    expect(mongoose.connect).toHaveBeenCalledWith(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
