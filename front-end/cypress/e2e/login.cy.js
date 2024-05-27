@@ -1,9 +1,17 @@
 describe('template spec', () => {
   it('should login successfully', () => {
-    cy.login('matheuszebende6@gmail.com', '12345')
+    cy.visit("https://rocket-x-orpin.vercel.app/")
+    cy.get('.login-btn').click()
+    cy.get(':nth-child(2) > label').type("matheuszebende6@gmail.com")
+    cy.get(':nth-child(3) > label').type("12345")
+    cy.get('button').click()
   })
   it("should break login", () => {
-    cy.login('matheuszebende5@gmail.com', '123456')
+    cy.visit("https://rocket-x-orpin.vercel.app/")
+    cy.get('.login-btn').click()
+    cy.get(':nth-child(2) > label').type("matheuszebende66@gmail.com")
+    cy.get(':nth-child(3) > label').type("12345")
+    cy.get('button').click()
     cy.get('.error-message').should('contain.text', 'Usuário ou senha incorretos')
   })
 })

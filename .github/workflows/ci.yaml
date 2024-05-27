@@ -24,10 +24,9 @@ jobs:
       - name: Install dependencies
         run: |
           cd front-end   # Navega até o diretório do front-end
-          npm install  # Instala as dependências do front-end
+          npm install    # Instala as dependências do front-end
 
       - name: Run Cypress tests
-        run: npx cypress run --config-file front-end/cypress.config.js
-        
-
-
+        run: |
+          cd front-end   # Certifique-se de estar no diretório do front-end
+          npx cypress run --config-file cypress.config.js
