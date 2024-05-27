@@ -9,9 +9,9 @@
 
 #  📝 Descrição do projeto
 <p>
-O Rocket-x é uma plataforma de quiz interativa, projetada especificamente para desenvolvedores. O objetivo principal é fornecer uma ferramenta divertida e educativa para testar e aprimorar os conhecimentos em algumas tecnologias específicas. A plataforma foi desenvolvida utilizando uma arquitetura full-stack, com o front-end integrado com um container Docker construido para o back-end.
+Rocket-x é uma plataforma de quiz interativa, voltada especificamente para desenvolvedores, projetada para oferecer uma experiência divertida e educativa ao testar e aprimorar conhecimentos em tecnologias específicas. Desenvolvida com uma arquitetura full-stack, integra o front-end com um container Docker construído para o back-end.
 
-A construção da plataforma envolveu o uso de Redux para gerenciamento de estado, garantindo uma base de código robusta e escalável. Além disso, foram implementados testes unitários e de integração tanto no front-end quanto no back-end para assegurar a qualidade e a confiabilidade do código. No front-end, também foram realizados testes end-to-end (e2e) com Cypress, permitindo uma verificação completa do fluxo de usuário e da funcionalidade da aplicação.
+A implementação de um pipeline de Continuous Integration (CI) foi realizada para executar testes, garantindo a qualidade do código. Testes unitários e de integração foram implementados em ambos os lados da aplicação, utilizando Redux para gerenciamento de estado no front-end, visando uma base de código robusta e escalável. Além disso, testes end-to-end (e2e) foram conduzidos com Cypress no front-end, permitindo uma verificação completa do fluxo do usuário e da funcionalidade da aplicação.
 </p>
 
 <br>
@@ -24,7 +24,6 @@ Front-end
 - React.JS
 - Typescript
 - Redux Toolkit
-- Jest
 - Cypress
 - React Toastify
 - React Icons
