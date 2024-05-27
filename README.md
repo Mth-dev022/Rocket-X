@@ -28,6 +28,7 @@ Front-end
 - React Toastify
 - React Icons
 - Axios
+- styled-components
 
 Back-end
 - NodeJS
