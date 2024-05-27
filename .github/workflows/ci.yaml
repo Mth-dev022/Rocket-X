@@ -21,12 +21,22 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Install front-end dependencies
         run: |
-          cd front-end   # Navega até o diretório do front-end
-          npm install    # Instala as dependências do front-end
+          cd front-end
+          npm install
 
       - name: Run Cypress tests
         run: |
-          cd front-end   # Certifique-se de estar no diretório do front-end
+          cd front-end
           npx cypress run --config-file cypress.config.js
+
+      - name: Install back-end dependencies
+        run: |
+          cd back-end
+          npm install
+
+      - name: Run Jest tests
+        run: |
+          cd back-end
+          npm run jest
