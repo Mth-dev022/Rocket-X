@@ -33,6 +33,7 @@ Back-end
 - NodeJS
 - Typescript
 - Jest
+- Supertest
 - Express
 - Nodemon
 - Bcrypt
