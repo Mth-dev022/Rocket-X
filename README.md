@@ -33,6 +33,7 @@ Front-end
 Back-end
 - NodeJS
 - Typescript
+- Docker
 - Jest
 - Supertest
 - Express
