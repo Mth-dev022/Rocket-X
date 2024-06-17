@@ -49,5 +49,5 @@ Banco de dados: <br>
 # ⏭️ Atualizações futuras
 
 - Responsividade para mobile
-- Adição de + 2 categorias para o quiz
+- Adição de + 2 categorias para o quiz.
 
