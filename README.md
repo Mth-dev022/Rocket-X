@@ -44,7 +44,7 @@ Back-end
 - Cors
    
 Banco de dados: <br>
-- MongoD
+- MongoDB
 
 # ⏭️ Atualizações futuras
 
