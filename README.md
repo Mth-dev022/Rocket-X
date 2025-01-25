@@ -18,7 +18,7 @@ A implementação de um pipeline de Continuous Integration (CI) foi realizada pa
 
 # 🚀 Tecnologias e bibliotecas
 
-Esse projeto está sendo desenvolvido com as seguintes tecnologias
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Front-end
 - React.JS
