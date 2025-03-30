@@ -4,7 +4,7 @@
 
 <p align="center"> 
  <img width="100%" src="front-end/src/assets/Images/gitHub/main.png">
- <img width="100%" src="front-end/src/assets/Images/gitHub/questions.png"
+ <img width="100%" src="front-end/src/assets/Images/gitHub/questions.png">
 </p>
 
 #  📝 Descrição do projeto
