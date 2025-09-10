@@ -7,7 +7,7 @@
  <img width="100%" src="front-end/src/assets/Images/gitHub/questions.png">
 </p>
 
-#  📝 Descrição do projet
+#  📝 Descrição do projeto
 <p>
 Rocket-x é uma plataforma de quiz interativa, voltada especificamente para desenvolvedores, projetada para oferecer uma experiência divertida e educativa ao testar e aprimorar conhecimentos em tecnologias específicas. Desenvolvida com uma arquitetura full-stack, integra o front-end com um container Docker construído para o back-end.
 
